@@ -1,0 +1,75 @@
+﻿@model Fullcalendar.Models.Entity.CalendarEvent
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = null;
+}
+
+
+<div class="row">
+    <div class="text-end">
+        <p>@ViewBag.EventDate</p>
+    </div>
+
+    <div class="col-md-12">
+        <form asp-controller="Home" asp-action="Create" method="post">
+            <input type="hidden" asp-for="Id"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+
+                <div class="form-group">
+                    <label asp-for="Title" class="control-label">Titulo</label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Start" class="control-label">Fecha de Inicio</label>
+                        <input asp-for="Start" class="form-control" type="datetime-local" value="@ViewBag.EventDate" />
+                        <span asp-validation-for="Start" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="End" class="control-label">Fecha de Fin</label>
+                        <input asp-for="End" class="form-control" type="datetime-local" value="@ViewBag.EventDate" />
+                        <span asp-validation-for="End" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <label asp-for="Color" class="control-label">Color</label>
+                        <input asp-for="Color" class="form-control" type="color" />
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label">Descripcion</label>
+                        <textarea asp-for="Description" class="form-control" rows="3" id="Description"
+                            autofocus></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group align-middle">
+                        <input class="form-check-input" asp-for="AllDay" />
+                        <label class="form-check-label" asp-for="AllDay">Todo el día</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-sm btn-success"><i class="fa fa-save"></i> Crear</button>
+                        <button type="button" class="btn btn-sm btn-primary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+@using Fullcalendar.Models.Entity
+
+<div class="text-center">
+    <h2>Lista de Eventos del Calendario</h2>
+</div>
+<br>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Imagen</th>
+            <th>Usuario</th>
+            <th>Titulo</th>
+            <th>Inicio</th>
+            <th>Fin</th>
+            <th>Descripcion</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var calendarEvent in Model)
+        {
+            <tr>
+                <td><img src="~/Uploads/@calendarEvent.Usuario!.ProfilePicture"
+                        style="width: 70px; height: 70px; border-radius: 50%;" alt="Profile Picture"></td>
+                <td>@calendarEvent.Usuario?.UserName</td>
+                <td>@calendarEvent.Title</td>
+                <td>@calendarEvent.Start</td>
+                <td>@calendarEvent.End</td>
+                <td>@calendarEvent.Description</td>
+                <td>@calendarEvent.Color</td>
+            </tr>
+        }
+    </tbody>
+</table>

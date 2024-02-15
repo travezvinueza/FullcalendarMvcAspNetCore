@@ -1,0 +1,136 @@
+@model IEnumerable<Fullcalendar.Models.Entity.CalendarEvent>
+
+@{
+    ViewData["Title"] = "Display";
+}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<div class="container-fluid">
+    <h3 class="text-center"></h3>
+</div>
+
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-info text-white mb-4">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <h5>Calendario <span class="badge bg-light text-dark">@ViewBag.CantidadEventos</span></h5> <i
+                        class="fas fa-3x fa-calendar-alt"></i>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="/Home/Index">Ver Calendario</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-success text-white mb-4">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <h5>Usuarios <span class="badge bg-light text-dark">@ViewBag.CantidadUsuarios</span></h5> 
+                    <i class="fa-solid fa-3x fa-users"></i>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                     <a class="small text-white stretched-link" href=@Url.Action("Lista","Admin")>Ver Usuarios</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-danger text-white mb-4">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <h5>Roles <span class="badge bg-light text-dark">@ViewBag.CantidadRoles</span></h5> <i
+                        class="fa-brands fa-3x fa-critical-role"></i>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="/Admin/Roles">Ver Roles</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-warning text-white mb-4">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <h5>Eventos <span class="badge bg-light text-dark">@ViewBag.CantidadEventos</span></h5> <i
+                        class="fas fa-3x fa-calendar-alt"></i>
+                </div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="small text-white stretched-link" href="/Home/Eventos">Ver Eventos</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row mt-2">
+
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-header">Eventos ultimos 5 días </div>
+            <div class="card-body">
+                <canvas id="chartEventos" style="max-height:250px"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+
+    <script>
+        function resumenEvento() {
+            fetch("ResumenEvento")
+                .then((response) => {
+                    return response.ok ? response.json() : Promise.reject(response);
+                })
+                .then((dataJson) => {
+
+                    const labels = dataJson.map((item) => { return item.UsuarioNombre })
+                    const values = dataJson.map((item) => { return item.CantidadEventos })
+
+                    const data = {
+                        labels: labels,
+                        datasets: [{
+                            label: 'cantidad de eventos',
+                            data: values,
+                            backgroundColor: 'rgb(54, 162, 235)',
+                            borderWidth: 1
+                        }]
+                    };
+
+                    const config = {
+                        type: 'bar',
+                        data: data,
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        },
+                    };
+                    const canvasBarras = document.getElementById("chartEventos");
+
+                    const graficoBarras = new Chart(canvasBarras, config)
+
+                }).catch((error) => {
+                    console.log("Error:", error);
+                })
+        }
+
+        $(document).ready(() => {
+
+            resumenEvento()
+
+        })
+
+    </script>
+
+}

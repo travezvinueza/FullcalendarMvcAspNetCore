@@ -1,0 +1,199 @@
+﻿<div id="calendar"></div>
+
+
+<div class="modal fade" id="mymodal" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="staticBackdropLabel">
+                    <span id="eventTitle"></span>
+                </h5>
+            </div>
+            <div class="modal-body">
+                <p id="pDetails"></p>
+                <div class="text-center">
+                    <button id="btnDelete" class="btn btn-danger btn-sm ">
+                        <i class='fa-solid fa-trash-can'></i> Eliminar
+                    </button>
+                    <button id="btnEdit" class="btn btn-success btn-sm">
+                        <i class='fas fa-pencil'></i> Editar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var initialLocaleCode = "es";
+        var calendarEl = document.getElementById("calendar");
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+
+            views: {
+                timeGrid: {
+                    slotLabelFormat: {
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        omitZeroMinute: false,
+                        meridiem: 'short',
+                        hour12: true
+                    },
+                }
+            },
+
+            themeSystem: 'bootstrap5',
+            timeZone: 'local',
+            initialView: 'timeGridWeek',
+
+            headerToolbar: {
+                left: "prev, next, today",
+                center: "title",
+                right: "dayGridMonth, timeGridWeek, listWeek",
+            },
+
+            locale: initialLocaleCode,
+            buttonIcons: true,
+            weekNumbers: false,
+            selectable: true,
+            selectMirror: true,
+            navLinks: true,
+            editable: true,
+            dayMaxEvents: true,
+
+            eventClick: function (info) {
+                var eventObj = info.event;
+                var exteventObj = info.event.extendedProps;
+
+                console.log(eventObj.title);
+                // Agrega la propiedad Email, telefono del objeto extendido
+                exteventObj.user = exteventObj.user || eventObj.extendedProps.user;
+                exteventObj.email = exteventObj.email || eventObj.extendedProps.email;
+                exteventObj.profilePicture = exteventObj.profilePicture || eventObj.extendedProps.profilePicture;
+                exteventObj.phoneNumber = exteventObj.phoneNumber || eventObj.extendedProps.phoneNumber;
+
+                $('#mymodal #eventTitle').html(eventObj.title);
+
+                var $description = $('<div/ class="alert alert-secondary" role="alert" style="margin-top:3px">');
+
+                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Usuario:</b> ' + exteventObj.user));
+                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Inicio:</b> ' + eventObj.start));
+                if (eventObj.end != null) {
+                    $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Fin:</b> ' + eventObj.end));
+                }
+                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Descripcion:</b> ' + exteventObj.description));
+
+                // Muestra el correo electrónico y el telefono
+                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Email:</b> ' + exteventObj.email));
+                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Teléfono:</b> ' + exteventObj.phoneNumber));
+
+                $('#mymodal #pDetails').empty().html($description);
+
+                $('#mymodal').modal('show');
+
+                $('#btnEdit').toggle(isUserAuthenticated()).click(function () {
+                    window.location = '@Url.Action("Edit", "Home")' + '?usuarioId=' + exteventObj.usuarioId + '&id=' + eventObj.id + '';
+                });
+
+                $('#btnDelete').toggle(isUserAuthenticated()).click(function () {
+                    var usuarioId = exteventObj.usuarioId;
+                    $.ajax({
+                        url: '@Url.Action("Delete", "Home")',
+                        type: 'POST',
+                        data: { id: eventObj.id, usuarioId: usuarioId },
+                        success: function () {
+                            showNotification('success', 'Evento eliminado exitosamente.');
+                            location.reload();
+                        },
+                        error: function () {
+
+                            showNotification('error', '¡Hubo un error al eliminar el evento!');
+                        }
+                    });
+                });
+            },
+
+            dateClick: function (info) {
+                console.log('info.dateStr:', info.dateStr);
+
+                if (!isUserAuthenticated()) {
+                    showNotification('error', '¡No estás autenticado, regístrate!');
+
+                    setTimeout(function () {
+                        window.location.href = '@Url.Action("Registro", "Login")';
+                    }, 3000); 
+                }
+                else {
+                    showInPopup('@Url.Action("Create", "Home")?eventDate=' + info.dateStr, 'Crear nuevo evento');
+                }
+            },
+
+
+            //metodo para implementar la imagen
+            eventContent: function (arg) {
+                let arrayOfDomNodes = []
+                let titleEvent = document.createElement('div')
+                if (arg.event._def.title) {
+                    titleEvent.innerHTML = arg.event._def.title
+                    titleEvent.classList = "fc-event-title fc-sticky"
+                }
+
+                let imgEventWrap = document.createElement('div')
+                if (arg.event.extendedProps.profilePicture) {
+                    let imgEvent = `<img src="${arg.event.extendedProps.profilePicture}" style="width: 20px; height: 20px; border-radius: 50%;" >`;
+                    imgEventWrap.classList = "fc-event-img"
+                    imgEventWrap.innerHTML = imgEvent;
+                }
+                arrayOfDomNodes = [titleEvent, imgEventWrap]
+
+                return { domNodes: arrayOfDomNodes }
+            },
+
+            events: {
+                url: '@Url.Action("GetEvents", "Home")',
+                method: 'POST',
+
+                failure: function () {
+                    showNotification('success', '¡Hubo un error al buscar eventos!');
+                },
+                color: 'black',
+                textColor: 'white'
+            },
+        });
+
+        calendar.render();
+    });
+
+</script>
+
+
+@section Scripts {
+    <partial name="_MostrarModal" />
+    <script src="~/js/showmodal.js"></script>
+
+    <script>
+        var isAuthenticated = @User.Identity.IsAuthenticated.ToString().ToLower();
+
+        function isUserAuthenticated() {
+            return isAuthenticated;
+        }
+
+        function showNotification(type, message) {
+            var notyf = new Notyf({
+                position: {
+                    x: 'center',
+                    y: 'top',
+                },
+            });
+
+            notyf.open({
+                type: type,
+                message: message,
+                duration: 3000,  // Duración en milisegundos (opcional)
+            });
+        }
+
+    </script>
+
+}

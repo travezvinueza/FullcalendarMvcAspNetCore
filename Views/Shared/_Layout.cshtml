@@ -1,0 +1,142 @@
+﻿@inject UserManager<Usuario> userManager
+@using Fullcalendar.Data;
+@using Microsoft.AspNetCore.Identity;
+@using System.Security.Claims
+@using Fullcalendar.Models.Entity;
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Fullcalendar</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Fullcalendar.styles.css" asp-append-version="true" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Fullcalendar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin"
+                                    asp-action="Display">PaginaAdmin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin"
+                                    asp-action="Lista">Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                    asp-action="Eventos">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin"
+                                    asp-action="Roles">Roles</a>
+                            </li>
+
+                        }
+
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                    asp-action="Privacy">Privacy</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                    asp-action="Eventos">Eventos</a>
+                            </li>
+
+                        }
+
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Cliente"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Producto"
+                                    asp-action="Display">Productos</a>
+                            </li>
+                        }
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="Index">Calendario</a>
+                        </li>
+
+                    </ul>
+
+
+                    <ul class="navbar-nav ms-auto">
+                        @if (!string.IsNullOrEmpty(User.Identity!.Name))
+                        {
+                            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                            var user = await userManager.FindByIdAsync(userId!);
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    @if (!string.IsNullOrEmpty(user!.ProfilePicture))
+                                    {
+                                        <img src="/Uploads/@user.ProfilePicture"
+                                            style="width: 50px; height: 50px; border-radius: 50%;" alt="Profile Picture" />
+
+                                    }
+                                    Hola @(User.Identity.Name ?? "Usuario sin nombre")
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Login"
+                                        asp-action="EditarUsuario">Mi Perfil</a>
+
+                                    <div class="dropdown-divider"></div>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Login"
+                                        asp-action="CerrarSesion" style="color: rgb(216, 11, 11);">Cerrar Sesión</a>
+                                </div>
+                            </li>
+                        }
+                        else
+                        {
+                            <partial name="_LoginPartial" />
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/fullcalendar/dist/index.global.min.js"></script>
+    <script src="~/lib/moment.js/moment.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+        integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @await Component.InvokeAsync("Notyf")
+</body>
+
+</html>

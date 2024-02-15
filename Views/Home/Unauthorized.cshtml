@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Unauthorized";
+}
+
+
+<h1>No estas autorizado</h1>
+
+
+@if (!string.IsNullOrEmpty(ViewBag.Message) && !string.IsNullOrWhiteSpace(ViewBag.Message))
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Swal.fire({
+                title: 'No autorizado',
+                text: '@Html.Raw(ViewBag.Message)',
+                icon: 'warning',
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'OK'
+            });
+        });
+    </script>
+}

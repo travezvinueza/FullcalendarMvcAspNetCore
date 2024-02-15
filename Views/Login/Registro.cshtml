@@ -1,0 +1,64 @@
+@model Fullcalendar.Models.UsuarioViewModel
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <div class="container mt-5 pt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Registro Usuario
+                    </div>
+                    <div class="card-body">
+
+                        <form asp-controller="Login" asp-action="Registro" method="post" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class=" text-danger"></div>
+                            <input type="hidden" asp-for="Id"/>
+                            <input type="hidden" asp-for="TipoUsuario" />
+
+                            <input class="form-control mb-3" type="file" asp-for="ImageFile">
+                            <input class="form-control mb-3" type="text" placeholder="Usuario" required asp-for="UserName" />
+                            <input class="form-control mb-3" type="text" placeholder="Email" required asp-for="Email" />
+                            <input class="form-control mb-3" type="number" placeholder="Telefono" autocomplete="off"
+                                asp-for="PhoneNumber" />
+                            <input class="form-control mb-3" autocomplete="off" type="password" placeholder="Contraseña"
+                                required asp-for="Password" />
+                            <input class="form-control mb-3" autocomplete="off" type="password"
+                                placeholder="Confirmar Contraseña" asp-for="PasswordConfirm" />
+
+                            <div class="d-grid gap-2 mb-3">
+                                <input class="btn btn-primary" type="submit" value="Registrar"/>
+                            </div>
+                            @if (ViewData["Mensaje"] != null)
+                            {
+
+                                <div class="form-group">
+                                    <div class="alert alert-danger" role="alert">
+                                        @ViewData["Mensaje"]
+                                    </div>
+                                </div>
+                            }
+                            ¿Ya tienes una cuenta? <a href="@Url.Action("IniciarSesion","Login")"> Iniciar Sesion</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

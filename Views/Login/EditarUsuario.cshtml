@@ -1,0 +1,89 @@
+@model Fullcalendar.Models.Entity.Usuario
+@{
+    ViewData["Title"] = "EditarUsuario";
+}
+
+
+<div class="dashboard-container">
+    <div class="header">
+        <center>
+            <h2>Mi Perfil</h2>
+            <br>
+            <div>
+                <img id="profileImage" src="~/Uploads/@Model.ProfilePicture" alt="Profile Picture" width="100px"
+                    height="100px" style="border-radius: 50%;" />
+            </div>
+        </center>
+    </div>
+</div>
+
+<form asp-action="EditarUsuario" method="post" asp-route-Id="@Model.Id" enctype="multipart/form-data"
+    id="updateProfileForm">
+
+    <input type="hidden" asp-for="UserName" />
+
+    <div class="form-group">
+        <label asp-for="ImageFile">Imagen</label>
+        <input type="file" class="form-control" asp-for="ImageFile" onchange="displaySelectedImage(this)" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserName">Usuario</label>
+        <input asp-for="UserName" class="form-control" readonly />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Correo Electrónico</label>
+        <input asp-for="Email" class="form-control" readonly />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber">Teléfono</label>
+        <input asp-for="PhoneNumber" class="form-control" readonly />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <br>
+
+    <button type="button" class="btn btn-success" id="btnUpdateProfile">Actualizar Perfil</button>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Calendario</a>
+
+</form>
+<br>
+
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById('btnUpdateProfile').addEventListener('click', function () {
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: 'Se actualizará la información del usuario.',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Sí, actualizar',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById('updateProfileForm').submit();
+                }
+            });
+        });
+
+        function displaySelectedImage(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    document.getElementById('profileImage').src = e.target.result;
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+}
