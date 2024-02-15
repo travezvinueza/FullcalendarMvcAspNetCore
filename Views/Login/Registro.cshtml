@@ -16,18 +16,23 @@
         <div class="row justify-content-center">
             <div class="col-12 col-xl-4 col-md-6">
                 <div class="card">
-                    <div class="card-header">
-                        Registro Usuario
+                    <div class="card-header text-center">
+                       <strong>Registro Usuario</strong> 
                     </div>
                     <div class="card-body">
+                        <div class="form-group text-center">
+                            <img id="imagenVistaPrevia" class="img-thumbnail align-middle"
+                                style="max-width: 100px; max-height: 150px; border-radius: 50%;" />
+                        </div>
 
                         <form asp-controller="Login" asp-action="Registro" method="post" enctype="multipart/form-data">
                             <div asp-validation-summary="ModelOnly" class=" text-danger"></div>
-                            <input type="hidden" asp-for="Id"/>
+                            <input type="hidden" asp-for="Id" />
                             <input type="hidden" asp-for="TipoUsuario" />
 
                             <input class="form-control mb-3" type="file" asp-for="ImageFile">
-                            <input class="form-control mb-3" type="text" placeholder="Usuario" required asp-for="UserName" />
+                            <input class="form-control mb-3" type="text" placeholder="Usuario" required
+                                asp-for="UserName" />
                             <input class="form-control mb-3" type="text" placeholder="Email" required asp-for="Email" />
                             <input class="form-control mb-3" type="number" placeholder="Telefono" autocomplete="off"
                                 asp-for="PhoneNumber" />
@@ -37,7 +42,7 @@
                                 placeholder="Confirmar Contraseña" asp-for="PasswordConfirm" />
 
                             <div class="d-grid gap-2 mb-3">
-                                <input class="btn btn-primary" type="submit" value="Registrar"/>
+                                <input class="btn btn-primary" type="submit" value="Registrar" />
                             </div>
                             @if (ViewData["Mensaje"] != null)
                             {
@@ -59,6 +64,26 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Función para mostrar la vista previa de la imagen
+        document.getElementById("ImageFile").addEventListener("change", function () {
+            mostrarVistaPrevia(this);
+        });
+
+        function mostrarVistaPrevia(input) {
+            var fileInput = input.files[0];
+            var imagePreview = document.getElementById("imagenVistaPrevia");
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                console.log('Vista previa de la imagen:', e.target.result);
+                imagePreview.src = e.target.result;
+            };
+
+            reader.readAsDataURL(fileInput);
+        }
+    </script>
 </body>
 
 </html>

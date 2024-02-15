@@ -1,0 +1,2405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\Fullcalendar.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fullcalendar.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\Uploads\\0a7fe430-1dd6-4ec2-b696-5ebbe59c24d9.png",
+      "PackagePath": "staticwebassets\\Uploads\\0a7fe430-1dd6-4ec2-b696-5ebbe59c24d9.png"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\Uploads\\0ded1191-e6f4-4331-ad10-5bddbcae0b6e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\0ded1191-e6f4-4331-ad10-5bddbcae0b6e.jpg"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\Uploads\\39930124-ebe7-44d3-a310-a392009b5233.png",
+      "PackagePath": "staticwebassets\\Uploads\\39930124-ebe7-44d3-a310-a392009b5233.png"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\Uploads\\5278c0e0-02c1-4fe8-8355-3d1e1b3ce438.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\5278c0e0-02c1-4fe8-8355-3d1e1b3ce438.jpeg"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\js\\showmodal.js",
+      "PackagePath": "staticwebassets\\js\\showmodal.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\README.md",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\README.md"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\dist\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\dist\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\dist\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\dist\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\background-events.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\background-events.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\daygrid-views.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\daygrid-views.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\external-dragging-2cals.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\external-dragging-2cals.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\external-dragging-builtin.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\external-dragging-builtin.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\full-height.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\full-height.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\list-sticky-header.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\list-sticky-header.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\list-views.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\list-views.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\month-view.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\month-view.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\multimonth-view.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\multimonth-view.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\multiweek-view.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\multiweek-view.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\natural-height.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\natural-height.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\selectable.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\selectable.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\examples\\timegrid-views.html",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\examples\\timegrid-views.html"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap4\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap4\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap4\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap4\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap5\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap5\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\bootstrap5\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\bootstrap5\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales-all.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales-all.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales-all.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales-all.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\af.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\af.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\af.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\af.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-dz.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-dz.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-dz.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-dz.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-kw.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-kw.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-kw.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-kw.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-ly.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-ly.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-ly.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-ly.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-ma.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-ma.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-ma.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-ma.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-sa.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-sa.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-sa.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-sa.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-tn.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-tn.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar-tn.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar-tn.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ar.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ar.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\az.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\az.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\az.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\az.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bg.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bg.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bg.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bg.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bn.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bn.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bn.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bn.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bs.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bs.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\bs.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\bs.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ca.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ca.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ca.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ca.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\cs.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\cs.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\cs.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\cs.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\cy.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\cy.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\cy.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\cy.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\da.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\da.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\da.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\da.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\de-at.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\de-at.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\de-at.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\de-at.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\de.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\de.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\de.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\de.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\el.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\el.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\el.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\el.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-au.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-au.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-au.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-au.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-gb.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-gb.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-gb.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-gb.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-nz.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-nz.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\en-nz.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\en-nz.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\eo.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\eo.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\eo.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\eo.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\es-us.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\es-us.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\es-us.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\es-us.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\es.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\es.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\es.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\es.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\et.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\et.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\et.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\et.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\eu.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\eu.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\eu.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\eu.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fa.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fa.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fa.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fa.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fi.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fi.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fi.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fi.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr-ca.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr-ca.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr-ca.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr-ca.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr-ch.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr-ch.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr-ch.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr-ch.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\fr.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\fr.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\gl.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\gl.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\gl.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\gl.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\he.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\he.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\he.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\he.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hi.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hi.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hi.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hi.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hr.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hr.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hr.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hr.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hu.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hu.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hu.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hu.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hy-am.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hy-am.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\hy-am.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\hy-am.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\id.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\id.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\id.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\id.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\is.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\is.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\is.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\is.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\it.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\it.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\it.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\it.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ja.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ja.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ja.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ja.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ka.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ka.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ka.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ka.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\kk.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\kk.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\kk.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\kk.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\km.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\km.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\km.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\km.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ko.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ko.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ko.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ko.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ku.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ku.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ku.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ku.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lb.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lb.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lb.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lb.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lt.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lt.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lt.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lt.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lv.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lv.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\lv.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\lv.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\mk.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\mk.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\mk.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\mk.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ms.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ms.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ms.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ms.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nb.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nb.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nb.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nb.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ne.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ne.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ne.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ne.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nl.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nl.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nl.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nl.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nn.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nn.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\nn.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\nn.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pl.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pl.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pl.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pl.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pt-br.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pt-br.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pt-br.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pt-br.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pt.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pt.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\pt.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\pt.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ro.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ro.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ro.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ro.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ru.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ru.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ru.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ru.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\si-lk.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\si-lk.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\si-lk.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\si-lk.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sk.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sk.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sk.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sk.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sl.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sl.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sl.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sl.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sm.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sm.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sm.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sm.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sq.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sq.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sq.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sq.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sr-cyrl.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sr-cyrl.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sr-cyrl.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sr-cyrl.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sr.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sr.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sr.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sr.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sv.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sv.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\sv.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\sv.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ta-in.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ta-in.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ta-in.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ta-in.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\th.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\th.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\th.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\th.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\tr.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\tr.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\tr.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\tr.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ug.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ug.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\ug.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\ug.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uk.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uk.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uk.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uk.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uz-cy.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uz-cy.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uz-cy.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uz-cy.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uz.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uz.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\uz.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\uz.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\vi.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\vi.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\vi.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\vi.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\zh-cn.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\zh-cn.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\zh-cn.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\zh-cn.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\zh-tw.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\zh-tw.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\core\\locales\\zh-tw.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\core\\locales\\zh-tw.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\daygrid\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\daygrid\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\google-calendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\google-calendar\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\icalendar\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\icalendar\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\icalendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\icalendar\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\interaction\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\interaction\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\list\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\list\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\list\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\luxon1\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon1\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\luxon1\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon1\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\luxon2\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon2\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\luxon2\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon2\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\luxon3\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon3\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\luxon3\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\luxon3\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\moment-timezone\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment-timezone\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\moment\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\moment\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\moment\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\multimonth\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\multimonth\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\multimonth\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\multimonth\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\rrule\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\rrule\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\timegrid\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\timegrid\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\web-component\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\web-component\\index.global.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\packages\\web-component\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\packages\\web-component\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\af.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\af.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\af.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\af.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-dz.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-dz.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-kw.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-kw.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-ly.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-ly.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-ma.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-ma.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-sa.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-sa.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar-tn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar-tn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ar.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\az.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\az.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\az.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\az.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\be.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\be.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\be.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\be.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bg.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bg.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bg.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bm.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bm.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bm.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bm.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bn-bd.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bn-bd.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bn-bd.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bn-bd.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\br.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\br.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\br.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\br.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bs.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\bs.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\bs.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ca.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ca.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\cs.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\cs.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\cs.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\cv.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\cv.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\cv.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\cv.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\cy.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\cy.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\cy.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\cy.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\da.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\da.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\da.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\da.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\de-at.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\de-at.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\de-at.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\de-ch.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\de-ch.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\de-ch.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\de.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\de.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\de.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\de.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\dv.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\dv.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\dv.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\dv.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\el.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\el.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\el.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\el.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-au.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-au.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-au.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-ca.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-ca.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-gb.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-gb.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-gb.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-ie.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-ie.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-ie.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-il.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-il.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-il.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-il.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-in.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-in.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-in.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-in.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-nz.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-nz.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-nz.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-sg.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-sg.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\en-sg.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\en-sg.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\eo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\eo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\eo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\eo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es-do.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es-do.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es-do.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es-mx.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es-mx.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es-mx.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es-mx.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es-us.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es-us.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es-us.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\es.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\es.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\et.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\et.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\et.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\et.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\eu.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\eu.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\eu.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fa.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fa.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fa.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fi.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fi.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fi.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fil.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fil.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fil.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fil.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fr-ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fr-ca.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fr-ch.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fr-ch.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fr.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fr.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fr.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fy.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fy.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\fy.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\fy.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ga.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ga.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ga.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ga.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gd.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gd.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gd.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gd.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gl.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gl.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gl.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gom-deva.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gom-deva.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gom-deva.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gom-deva.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gom-latn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gom-latn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gom-latn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gom-latn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gu.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gu.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\gu.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\gu.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\he.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\he.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\he.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\he.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hi.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hi.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hi.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hr.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hr.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hr.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hu.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hu.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hu.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hy-am.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hy-am.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\hy-am.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\hy-am.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\id.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\id.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\id.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\id.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\is.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\is.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\is.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\is.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\it-ch.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\it-ch.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\it-ch.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\it-ch.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\it.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\it.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\it.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\it.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ja.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ja.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ja.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\jv.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\jv.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\jv.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\jv.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ka.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ka.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ka.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\kk.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\kk.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\kk.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\km.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\km.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\km.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\km.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\kn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\kn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\kn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\kn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ko.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ko.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ko.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ku.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ku.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ku.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ku.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ky.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ky.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ky.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ky.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lb.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lb.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lb.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lt.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lt.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lt.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lv.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\lv.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\lv.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\me.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\me.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\me.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\me.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mi.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mi.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mi.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mi.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mk.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mk.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mk.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ml.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ml.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ml.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ml.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mr.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mr.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mr.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mr.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ms-my.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ms-my.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ms-my.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ms.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ms.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ms.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mt.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mt.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\mt.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\mt.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\my.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\my.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\my.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\my.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nb.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nb.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nb.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ne.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ne.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ne.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ne.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nl-be.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nl-be.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nl-be.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nl.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nl.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nl.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\nn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\nn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\oc-lnc.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\oc-lnc.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\oc-lnc.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\oc-lnc.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pa-in.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pa-in.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pa-in.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pa-in.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pl.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pl.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pl.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pt-br.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pt-br.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pt-br.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pt.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\pt.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\pt.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ro.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ro.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ro.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ru.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ru.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ru.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sd.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sd.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sd.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sd.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\se.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\se.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\se.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\se.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\si.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\si.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\si.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\si.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sk.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sk.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sk.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sl.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sl.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sl.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sq.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sq.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sq.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sr-cyrl.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sr-cyrl.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sr.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sr.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sr.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ss.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ss.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ss.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ss.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sv.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sv.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sv.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sw.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sw.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\sw.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\sw.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ta.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ta.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ta.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ta.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\te.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\te.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\te.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\te.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tet.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tet.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tet.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tet.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tg.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tg.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tg.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tg.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\th.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\th.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\th.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\th.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tk.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tk.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tk.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tl-ph.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tl-ph.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tl-ph.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tl-ph.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tlh.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tlh.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tlh.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tlh.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tr.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tr.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tr.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tzl.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tzl.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tzl.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tzl.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tzm-latn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tzm-latn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tzm-latn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tzm-latn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tzm.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tzm.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\tzm.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\tzm.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ug-cn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ug-cn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ug-cn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ug-cn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\uk.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\uk.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\uk.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ur.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ur.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\ur.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\ur.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\uz-latn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\uz-latn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\uz-latn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\uz-latn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\uz.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\uz.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\uz.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\uz.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\vi.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\vi.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\vi.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\x-pseudo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\x-pseudo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\x-pseudo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\x-pseudo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\yo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\yo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\yo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\yo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-cn.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-cn.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-hk.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-hk.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-mo.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-mo.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-mo.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-mo.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\locale\\zh-tw.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\locale\\zh-tw.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\moment-with-locales.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\moment-with-locales.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\moment-with-locales.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\moment-with-locales.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\moment-with-locales.min.js.map"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\moment.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\moment.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\moment.js\\moment.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\moment.js\\moment.min.js.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Fullcalendar.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.Fullcalendar.props",
+      "PackagePath": "build\\Fullcalendar.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Fullcalendar.props",
+      "PackagePath": "buildMultiTargeting\\Fullcalendar.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.Fullcalendar.props",
+      "PackagePath": "buildTransitive\\Fullcalendar.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

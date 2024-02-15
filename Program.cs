@@ -63,7 +63,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication(); //agregue la autenticacion
 app.UseAuthorization();
-app.UseNotyf();
+app.UseNotyf(); //agregue notify
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

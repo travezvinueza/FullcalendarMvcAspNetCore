@@ -133,13 +133,13 @@ namespace Fullcalendar.Controllers
                 _notifyService.Error("¡Hubo un error al crear el evento!");
                 return RedirectToAction("Index");
             }
-            
+
         }
 
 
         // Acción para mostrar el formulario de edición
         [HttpGet]
-        [Authorize(Roles = "Admin, User")]
+        [Authorize]
         public async Task<IActionResult> EditAsync(string usuarioId, int id)
         {
 
@@ -161,7 +161,7 @@ namespace Fullcalendar.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "User")]
+        [Authorize]
         public async Task<IActionResult> EditAsync(CalendarEvent editedEvent)
         {
             if (ModelState.IsValid)
@@ -183,41 +183,32 @@ namespace Fullcalendar.Controllers
 
         // Metodo para eliminar
         [HttpPost]
-        [Authorize(Roles = "Admin, User")]
+        [Authorize]
         public async Task<IActionResult> DeleteAsync(string usuarioId, int id)
         {
-
-
             var currentUser = await _userManager.GetUserAsync(User);
-            
+
             var eventToDelete = _calendarEventService.GetByIdAndUsuarioId(id, usuarioId);
 
-            if (eventToDelete.UsuarioId != currentUser!.Id)
-            {
-                TempData["UnauthorizedMessage"] = "No estás autorizado para ver este evento.";
-                return RedirectToAction("Unauthorized");
-            }
-
-            if (await _userManager.IsInRoleAsync(currentUser!, "Admin") || eventToDelete.UsuarioId == currentUser!.Id)
-            {
-                _calendarEventService.Delete(eventToDelete.Id);
-                _notifyService.Success("Evento eliminado exitosamente.");
-                return RedirectToAction("Index");
-            }
-            else
+            if (currentUser == null || (eventToDelete.UsuarioId != currentUser.Id && !await _userManager.IsInRoleAsync(currentUser, "Admin, User")))
             {
                 TempData["UnauthorizedMessage"] = "No estás autorizado para ver este evento.";
                 _notifyService.Warning("No estás autorizado para ver este evento.");
                 return RedirectToAction("Unauthorized");
             }
+
+            _calendarEventService.Delete(eventToDelete.Id);
+            _notifyService.Success("Evento eliminado exitosamente.");
+
+            return RedirectToAction("Index");
         }
 
-         public async Task<IActionResult> Eventos()
+
+        public async Task<IActionResult> Eventos()
         {
             var calendarEvents = await _calendarEventService.GetCalendarEventsAsync();
             return View(calendarEvents);
         }
-
 
 
 

@@ -33,24 +33,26 @@
 
             views: {
                 timeGrid: {
-                    slotLabelFormat: {
-                        hour: 'numeric',
-                        minute: '2-digit',
-                        omitZeroMinute: false,
-                        meridiem: 'short',
-                        hour12: true
+                    slotLabelContent: function (arg) {
+                        var hour = arg.date.getHours();
+                        var meridiem = (hour >= 12 && hour < 24) ? 'pm' : 'am';
+                        hour = (hour % 12 || 12).toString(); 
+                        return hour + meridiem;
                     },
                 }
             },
+
+            height: 'auto',
+            contentHeight: 'auto',
 
             themeSystem: 'bootstrap5',
             timeZone: 'local',
             initialView: 'timeGridWeek',
 
             headerToolbar: {
-                left: "prev, next, today",
+                left: "prev,next",
                 center: "title",
-                right: "dayGridMonth, timeGridWeek, listWeek",
+                right: "dayGridMonth,timeGridWeek,listWeek",
             },
 
             locale: initialLocaleCode,
@@ -60,6 +62,7 @@
             selectMirror: true,
             navLinks: true,
             editable: true,
+            nowIndicator: true,
             dayMaxEvents: true,
 
             eventClick: function (info) {
@@ -103,7 +106,7 @@
                         type: 'POST',
                         data: { id: eventObj.id, usuarioId: usuarioId },
                         success: function () {
-                            showNotification('success', 'Evento eliminado exitosamente.');
+                            
                             location.reload();
                         },
                         error: function () {
@@ -122,7 +125,7 @@
 
                     setTimeout(function () {
                         window.location.href = '@Url.Action("Registro", "Login")';
-                    }, 3000); 
+                    }, 3000);
                 }
                 else {
                     showInPopup('@Url.Action("Create", "Home")?eventDate=' + info.dateStr, 'Crear nuevo evento');

@@ -26,7 +26,7 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Start" class="control-label">Fecha de Inicio</label>
-                        <input asp-for="Start" class="form-control" type="datetime-local" value="@ViewBag.EventDate" />
+                        <input asp-for="Start" class="form-control" type="datetime-local" value="@ViewBag.dateStr" />
                         <span asp-validation-for="Start" class="text-danger"></span>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="End" class="control-label">Fecha de Fin</label>
-                        <input asp-for="End" class="form-control" type="datetime-local" value="@ViewBag.EventDate" />
+                        <input asp-for="End" class="form-control" type="datetime-local" value="@ViewBag.dateStr" />
                         <span asp-validation-for="End" class="text-danger"></span>
                     </div>
                 </div>

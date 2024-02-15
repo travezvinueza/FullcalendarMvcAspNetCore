@@ -144,3 +144,4 @@ C:\PROYECTOS\DOTNET\Fullcalendar\bin\Debug\net8.0\AspNetCoreHero.ToastNotificati
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Debug\net8.0\AspNetCoreHero.ToastNotification.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\obj\Debug\net8.0\Fullcalendar.MvcApplicationPartsAssemblyInfo.cs
+C:\PROYECTOS\DOTNET\Fullcalendar\obj\Debug\net8.0\Fullcalendar.sourcelink.json

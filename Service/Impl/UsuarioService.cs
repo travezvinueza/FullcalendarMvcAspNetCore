@@ -81,7 +81,7 @@ namespace Fullcalendar.Service.Impl
                 throw new InvalidOperationException($"Error al crear el usuario: {string.Join(", ", result.Errors)}");
             }
 
-            Usuario nuevoUsuario = await ObtenerUsuario(usuario.Email);
+            Usuario nuevoUsuario = await ObtenerUsuario(usuario.UserName);
 
             if (nuevoUsuario == null)
             {
