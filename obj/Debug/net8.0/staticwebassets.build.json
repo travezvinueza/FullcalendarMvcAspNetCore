@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xy+KkQ/iUpupk7G68RNdyy5VN1jOBXK4MfjWIx1bkbI=",
+  "Hash": "H6L5BD1rIKZy17PQDY9rqLXD3GMTEMWJJm437fiHt80=",
   "Source": "Fullcalendar",
   "BasePath": "_content/Fullcalendar",
   "Mode": "Default",
@@ -11282,6 +11282,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\moment.js\\moment.min.js.map"
+    },
+    {
+      "Identity": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\Uploads\\19fe9b29-22b5-422c-b9b1-58e6b1d31437.jpg",
+      "SourceId": "Fullcalendar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\",
+      "BasePath": "_content/Fullcalendar",
+      "RelativePath": "Uploads/19fe9b29-22b5-422c-b9b1-58e6b1d31437.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\19fe9b29-22b5-422c-b9b1-58e6b1d31437.jpg"
     },
     {
       "Identity": "C:\\Users\\Mauri\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css",

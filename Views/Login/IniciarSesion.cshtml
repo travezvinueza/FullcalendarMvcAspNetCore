@@ -17,21 +17,23 @@
             <div class="col-12 col-xl-4 col-md-6">
                 <div class="card">
                     <div class="card-header text-center">
-                        <strong>Iniciar Sesion</strong> 
+                        <strong>Iniciar Sesion</strong>
                     </div>
                     <div class="card-body">
 
                         <form asp-controller="Login" asp-action="IniciarSesion" method="post">
 
-                            <input class="form-control mb-3" type="text" placeholder="Usuario" asp-for="UserName" />
-                            <input class="form-control mb-3" type="password" placeholder="Ingresa tu contraseña" asp-for="Password" />
+                            <input asp-for="UserName"  type="text" class="form-control mb-3" placeholder="Usuario"  />
+                            <input asp-for="Password" type="password" class="form-control mb-3" placeholder="Ingresa tu contraseña" />
 
-                            <div class="mb-1 form-check">
-                                <label class="form-check-label">
-                                    <input asp-for="RememberMe" class="form-check-input" />
-                                    @Html.DisplayNameFor(a => a.RememberMe)
-                                </label>
+                            <div class="form-group mt-2">
+                                <div class="form-check">
+                                    <input asp-for="RememberMe" type="checkbox" class="form-check-input" />
+                                    <label asp-for="RememberMe" class="form-check-label"></label>
+                                </div>
+                                <span asp-validation-for="RememberMe" class="text-warning"></span>
                             </div>
+                            <br>
 
                             <div class="d-grid gap-2 mb-3">
                                 <button class="btn btn-primary" type="submit">Login</button>

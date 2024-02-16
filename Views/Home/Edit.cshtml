@@ -45,22 +45,13 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <div class="form-group">
-                        <label asp-for="Color">Color</label>
-                        <select asp-for="Color" class="form-control">
-                            <option value="">Seleccione un color</option>
-                            <option value="Orange">Naranja</option>
-                            <option value="Green">Verde</option>
-                            <option value="Red">Rojo</option>
-                            <option value="Yellow">Amarillo</option>
-                            <option value="Pink">Rosado</option>
-                            <option value="Purple">Morado</option>
-                            <option value="Blue">Azul</option>
-                            <option value="Black">Negro</option>
-                        </select>
+                        <label asp-for="Color" class="control-label">Color</label>
+                        <input asp-for="Color" class="form-control" type="color" />
                         <span asp-validation-for="Color" class="text-danger"></span>
                     </div>
+                </div>
                     <br>
 
                 <div class="col-md-6">
@@ -74,8 +65,8 @@
                 <br>
 
                 <div>
-                    <a asp-action="Index" class="btn btn-dark">Volver al calendario</a>
-                    <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i>Actualizar</button>
+                    <a asp-action="Index" class="btn btn-warning">Volver al calendario</a>
+                    <button type="submit" class="btn btn-success"><i class="fa fa-save"></i>Actualizar</button>
 
                 </div>
 

@@ -14,6 +14,7 @@ namespace Fullcalendar.Models.Entity
         public DateTime End { get; set; }
         public string Color { get; set; } = string.Empty;
         public Boolean AllDay { get; set; }
+      //  public string ClassName { get; set; } = "fc-event";
         public DateTime DateCreated { get; set; }
         public DateTime DateModified { get; set; } 
         public string? UsuarioId { get; set; }
