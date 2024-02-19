@@ -10,17 +10,23 @@ namespace Fullcalendar.Service.Impl
     public class UsuarioService : IUsuarioService
     {
         private readonly DatabaseContext _context;
+        protected readonly IFileService _fileService;
         private readonly UserManager<Usuario> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<Usuario> _signInManager;
 
-        public UsuarioService(DatabaseContext context, UserManager<Usuario> userManager,
-            RoleManager<IdentityRole> roleManager, SignInManager<Usuario> signInManager)
+        public UsuarioService(
+            DatabaseContext context,
+            UserManager<Usuario> userManager,
+            RoleManager<IdentityRole> roleManager,
+            SignInManager<Usuario> signInManager,
+            IFileService fileService)
         {
             _context = context;
             _userManager = userManager;
             _roleManager = roleManager;
             _signInManager = signInManager;
+            _fileService = fileService;
         }
 
         public async Task AsignarRol(Usuario usuario, string nombreRol)
@@ -115,7 +121,7 @@ namespace Fullcalendar.Service.Impl
             return usuario;
         }
 
-        public async Task<Usuario> ObtenerUsuario(Guid userId)
+        public async Task<Usuario> AdminObtenerUsuario(Guid userId)
         {
             return await _context.Users
             .FirstOrDefaultAsync(u => u.Id == userId.ToString());
@@ -125,6 +131,64 @@ namespace Fullcalendar.Service.Impl
         public async Task<List<Usuario>> GetAll()
         {
             return await _context.Users.ToListAsync();
+        }
+
+        public async Task<IdentityResult> EliminarUsuario(string username)
+        {
+            var usuario = await _userManager.FindByNameAsync(username);
+            if (usuario == null)
+            {
+                // Usuario no encontrado
+                return IdentityResult.Failed(new IdentityError { Description = "Usuario no encontrado." });
+            }
+
+            var result = await _userManager.DeleteAsync(usuario);
+
+            return result;
+        }
+
+        public async Task<IdentityResult> AgregarUsuario(UsuarioViewModel model)
+        {
+            Tuple<int, string> imageResult = null!;
+
+            if (model.ImageFile != null)
+            {
+                imageResult = _fileService.SaveImage(model.ImageFile);
+
+                if (imageResult.Item1 != 1)
+                {
+
+                    return IdentityResult.Failed(new IdentityError { Description = imageResult.Item2 });
+                }
+
+                model.ProfilePicture = imageResult.Item2;
+            }
+
+            var user = new Usuario
+            {
+                ProfilePicture = model.ProfilePicture,
+                UserName = model.UserName,
+                Email = model.Email,
+                PhoneNumber = model.PhoneNumber,
+                EmailConfirmed = true,
+                PhoneNumberConfirmed = true,
+
+            };
+
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (result.Succeeded)
+            {
+                foreach (var role in model.TipoUsuario.ToString().Split(','))
+                {
+                    await VerificarRol(role.Trim());
+                }
+
+                await _userManager.AddToRolesAsync(user, model.TipoUsuario.ToString().Split(','));
+                await _signInManager.SignInAsync(user, isPersistent: false);
+            }
+
+            return result;
         }
 
     }

@@ -16,9 +16,12 @@ namespace Fullcalendar.Service
         Task CerrarSesion();
         Task<Usuario> CrearUsuario(UsuarioViewModel model);
         Task<IdentityResult> ActualizarUsuario(Usuario usuario);
-        Task<Usuario> ObtenerUsuario(Guid userId);
+        Task<Usuario> AdminObtenerUsuario(Guid userId);
 
         Task<List<Usuario>> GetAll(); //trae una lista
+        Task<IdentityResult> EliminarUsuario(string username);
+
+        Task<IdentityResult> AgregarUsuario(UsuarioViewModel model);
 
     }
 

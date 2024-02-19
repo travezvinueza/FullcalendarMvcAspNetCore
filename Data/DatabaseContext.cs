@@ -15,6 +15,12 @@ namespace Fullcalendar.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Usuario>()
+                 .HasMany(u => u.CalendarEvents)
+                 .WithOne(e => e.Usuario)
+                 .OnDelete(DeleteBehavior.Cascade);
+
         }
 
     }

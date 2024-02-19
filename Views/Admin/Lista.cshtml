@@ -3,55 +3,91 @@
 @inject UserManager<Usuario> UserManager
 @model IEnumerable<Fullcalendar.Models.Entity.Usuario>
 
-<!-- Agrege el enlace a SweetAlert -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
-<div class="dashboard-container">
-    
-    <div class="col-md-12">
-        <div class="card">
-            <div class=" card-header text-center">
-                <h5>Lista de Usuarios</h5>
-            </div>
-            <div class=" card-body">
-                <table id="usuario" class="table responsive table stripped">
-                    <thead>
+<div class="container">
+    <a href="@Url.Action("AddUser", "Admin")" class="btn btn-success">
+        <i class="fas fa-user-plus"></i> Agregar Usuario
+    </a>
+    <br><br>
+</div>
+
+
+<div class="col-md-12">
+    <div class="card">
+        <div class=" card-header text-center">
+            <h5>Lista de Usuarios</h5>
+        </div>
+        <div class=" card-body">
+            <table id="usuario" class="table responsive table stripped">
+                <thead>
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Email</th>
+                        <th>Telefono</th>
+                        <th>Rol</th>
+                        <th>Imagen</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
                         <tr>
-                            <th>Usuario</th>
-                            <th>Email</th>
-                            <th>Telefono</th>
-                            <th>Imagen</th>
-                            <th>Rol</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>@Html.DisplayFor(modelItem => item.UserName)</td>
-                                <td>@Html.DisplayFor(modelItem => item.Email)</td>
-                                <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
-                                
-                                <td>
-                                    <img src="~/Uploads/@Html.DisplayFor(modelItem => item.ProfilePicture)"
-                                        style="width: 70px; height: 70px; border-radius: 50%;" alt="Profile Picture">
-                                </td>
-                                <td>
-                                    @{
-                                        var userRoles = await UserManager.GetRolesAsync(item);
-                                    }
+                            <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                            <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                            <td>
+                                @{
+                                    var userRoles = await UserManager.GetRolesAsync(item);
+                                }
 
-                                    @foreach (var role in userRoles)
-                                    {
-                                        <span>@role</span>
-                                    }
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
+                                @foreach (var role in userRoles)
+                                {
+                                    <span>@role</span>
+                                }
+                            </td>
+
+                            <td>
+                                <img src="~/Uploads/@Html.DisplayFor(modelItem => item.ProfilePicture)"
+                                    style="width: 70px; height: 70px; border-radius: 50%;" alt="Profile Picture">
+                            </td>
+
+                            <td>
+                                <button class="btn btn-danger btn-sm" onclick="eliminarUsuario('@item.UserName')"><i
+                                        class='fa-solid fa-trash-can'></i></button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
+
+
+@section Scripts {
+    <partial name="_MostrarModal" />
+    <script src="~/js/showmodal.js"></script>
+
+    <script>
+
+        function eliminarUsuario(username) {
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: "La eliminación del usuario es irreversible.",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Sí, eliminarlo!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = '/Admin/EliminarUsuario?username=' + username;
+                }
+            });
+        }
+    </script>
+
+}
+

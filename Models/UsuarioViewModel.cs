@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using Fullcalendar.Models.Entity;
 
 namespace Fullcalendar.Models
@@ -19,6 +18,7 @@ namespace Fullcalendar.Models
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         [StringLength(20, MinimumLength = 6, ErrorMessage = "El campo {0} debe tener entre {2} y {1} carácteres.")]
         public string PasswordConfirm { get; set; } = string.Empty;
+        public List<string> AvailableRoles { get; set; } = new List<string>();
        
     }
 }

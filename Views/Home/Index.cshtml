@@ -1,23 +1,23 @@
 ﻿<div id="calendar"></div>
 
 
-<div class="modal fade" id="mymodal" data-backdrop="static" data-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="modal fade in" id="mymodal" role="dialog" data-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog draggable modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-info text-white">
-                <h5 class="modal-title" id="staticBackdropLabel">
+                <h5 class="modal-title">
                     <span id="eventTitle"></span>
                 </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p id="pDetails"></p>
-                <div class="text-center">
+                <div class="text-end">
                     <button id="btnDelete" class="btn btn-danger btn-sm ">
-                        <i class='fa-solid fa-trash-can'></i> Eliminar
+                        <i class='fa-solid fa-trash-can'></i> 
                     </button>
                     <button id="btnEdit" class="btn btn-success btn-sm">
-                        <i class='fas fa-pencil'></i> Editar
+                        <i class='fas fa-pencil'></i> 
                     </button>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     slotLabelContent: function (arg) {
                         var hour = arg.date.getHours();
                         var meridiem = (hour >= 12 && hour < 24) ? 'pm' : 'am';
-                        hour = (hour % 12 || 12).toString(); 
+                        hour = (hour % 12 || 12).toString();
                         return hour + meridiem;
                     },
                 }
@@ -81,9 +81,9 @@
                 var $description = $('<div/ class="alert alert-secondary" role="alert" style="margin-top:3px">');
 
                 $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Usuario:</b> ' + exteventObj.user));
-                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Inicio:</b> ' + eventObj.start));
+                $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Inicio:</b> ' + eventObj.start.toLocaleString('es-ES', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true }) ));
                 if (eventObj.end != null) {
-                    $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Fin:</b> ' + eventObj.end));
+                    $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Fin:</b> ' + eventObj.end.toLocaleString('es-ES', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true }) ));
                 }
                 $description.append($('<p/ class="alert alert-primary" role="alert">').html('<b>Descripcion:</b> ' + exteventObj.description));
 
@@ -106,7 +106,7 @@
                         type: 'POST',
                         data: { id: eventObj.id, usuarioId: usuarioId },
                         success: function () {
-                            
+
                             location.reload();
                         },
                         error: function () {
@@ -172,6 +172,9 @@
 
 
 @section Scripts {
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     <partial name="_MostrarModal" />
     <script src="~/js/showmodal.js"></script>
 
@@ -197,6 +200,24 @@
             });
         }
 
+    </script>
+
+    <!-- para mover el modal -->
+    <script>
+        $(document).ready(function () {
+            // Hacer el modal arrastrable con jQuery UI
+            $('.draggable').draggable({
+                handle: '.modal-header'
+            });
+
+            // Agregar soporte táctil con Hammer.js
+            $('.draggable').hammer().on('pan', function (event) {
+                $(this).css({
+                    left: event.gesture.deltaX + 'px',
+                    top: event.gesture.deltaY + 'px'
+                });
+            });
+        });
     </script>
 
 }
