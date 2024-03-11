@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H6L5BD1rIKZy17PQDY9rqLXD3GMTEMWJJm437fiHt80=",
+  "Hash": "jCUG2lZl5/W6ja65dJtIo3VMwItdG8u2cgHYe1sVrWc=",
   "Source": "Fullcalendar",
   "BasePath": "_content/Fullcalendar",
   "Mode": "Default",
@@ -1801,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Identity": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\dist\\es.js",
+      "SourceId": "Fullcalendar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\",
+      "BasePath": "_content/Fullcalendar",
+      "RelativePath": "lib/fullcalendar/dist/es.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\dist\\es.js"
     },
     {
       "Identity": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\dist\\index.global.js",

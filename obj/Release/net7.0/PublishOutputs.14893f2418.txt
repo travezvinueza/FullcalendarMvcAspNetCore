@@ -8,8 +8,6 @@ C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\AspNetCoreHero.Toast
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\AspNetCoreHero.ToastNotification.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Azure.Core.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Azure.Identity.dll
-C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.Bcl.AsyncInterfaces.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.Data.SqlClient.dll
@@ -17,8 +15,6 @@ C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.EntityFram
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.Extensions.Identity.Core.dll
-C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.Extensions.Identity.Stores.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.Identity.Client.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\PROYECTOS\DOTNET\Fullcalendar\bin\Release\net7.0\publish\Microsoft.IdentityModel.Abstractions.dll

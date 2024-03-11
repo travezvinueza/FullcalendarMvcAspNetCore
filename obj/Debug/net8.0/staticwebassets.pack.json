@@ -385,6 +385,10 @@
       "PackagePath": "staticwebassets\\lib\\fullcalendar\\README.md"
     },
     {
+      "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\dist\\es.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\dist\\es.js"
+    },
+    {
       "Id": "C:\\PROYECTOS\\DOTNET\\Fullcalendar\\wwwroot\\lib\\fullcalendar\\dist\\index.global.js",
       "PackagePath": "staticwebassets\\lib\\fullcalendar\\dist\\index.global.js"
     },
